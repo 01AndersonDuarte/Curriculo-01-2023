@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: dimgray;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: dimgray;
+}
+
+h3 {
+  font-size: 20px;
+  color: steelblue;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 50px;
+}
+
+.div-pai {
+  display: flex;
+  justify-content: center;
+}
+ 
+.div-secoes {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inicial {
+  text-align: center;
+  padding: 30px;
+}
+
+.secundaria {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.secundaria p, ul{
+  padding: 20px 0;
+}
+.secundaria li{
+  line-height: 25px;
+}
